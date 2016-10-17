@@ -35,7 +35,7 @@ class Rundeck
 
     @headers =
       "Accept": "application/xml"
-      "Content-Type": "application/xml"
+      #"Content-Type": "application/xml"
       "X-Rundeck-Auth-Token": "#{@authToken}"
 
     @plainTextHeaders =
